@@ -37,12 +37,7 @@ To run this test successfully, ensure the following conditions are met:
 3. **Google Maps Installed**  
    The **Google Maps** application must be **installed and updated** to the latest version.
 
-4. **Device Preparedness**
-   - Android device with **developer mode** enabled.
-   - USB debugging turned on.
-   - Connected via ADB and visible when running `adb devices`.
-
-5. **System Requirements**
+4. **System Requirements**
    - Node.js v16+
    - Java SDK installed and added to `PATH`
    - Android SDK & environment variables (`ANDROID_HOME`) properly configured
