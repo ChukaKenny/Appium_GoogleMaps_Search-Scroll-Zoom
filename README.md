@@ -5,7 +5,7 @@
 This repository contains an automated mobile UI test using **Appium** and **WebdriverIO**. The test focuses on verifying core functionalities of the **Google Maps** app on Android devices:  
 ✅ **Search**  
 ✅ **Scroll through map**  
-✅ **Zoom in and out**
+✅ **Zoom**
 
 ---
 
@@ -28,16 +28,19 @@ This repository contains an automated mobile UI test using **Appium** and **Webd
 
 To run this test successfully, ensure the following conditions are met:
 
-1. **Internet Connectivity**  
+1.**Google Maps App Installed**  
+  Ensure the AliExpress app is installed and updated to **version 10.43.7** on the Android device or emulator.
+  
+2.   **Internet Connectivity**  
    A stable **mobile data** or **Wi-Fi connection** must be available.
 
-2. **Bypass Sign-In Screens**  
+3. **Bypass Sign-In Screens**  
    Ensure the Google Maps app is on the **home screen** and opened **at least once**, skipping any sign-in or onboarding screens.
 
-3. **Google Maps Installed**  
+4. **Google Maps Installed**  
    The **Google Maps** application must be **installed and updated** to the latest version.
 
-4. **System Requirements**
+5. **System Requirements**
    - Node.js v16+
    - Java SDK installed and added to `PATH`
    - Android SDK & environment variables (`ANDROID_HOME`) properly configured
